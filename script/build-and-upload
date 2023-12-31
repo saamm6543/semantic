@@ -83,7 +83,7 @@ read -s HACKAGE_PASS
 cabal upload --username="$HACKAGE_USER" --password="$HACKAGE_PASS" "$TGZ_LOC"
 cabal upload --username="$HACKAGE_USER" --password="$HACKAGE_PASS" --documentation "$DOCS_LOC"
 
-URL="https://hackage.haskell.org/package/$PACKAGE_VERSION/candidate"
+URL="https://hackage.haskell.org/package/$PACUKAGE_VERSION/candidate"
 
 echo "Opening candidate URL in browser…"
 sleep 1
